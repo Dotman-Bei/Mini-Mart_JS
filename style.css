@@ -1,0 +1,58 @@
+body{
+    background:linear-gradient(320deg,white,blue,white);
+    background-repeat: no-repeat;
+    height: 720px;
+}
+
+.box{
+    margin: 20px 350px;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+
+button{
+    background-color: green;
+    color: whitesmoke;
+    border: 2px solid green;
+    height: 5vh;
+    border-radius: 12px;
+}
+
+h1{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    padding-bottom: 30px;
+}
+
+#showErr{
+    color: red;
+    background-color: rgb(191, 186, 173);
+    width: 30%;
+    font-weight: bold;
+    line-height: 2rem;
+    font-size: 20px;
+}
+
+input{
+    margin-top: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    width: 50%;
+    height: 40px;
+}
+
+#disp{
+    background:linear-gradient(90deg,black,blue,grey);
+    margin-top: 30px;
+    height: 120px;
+    width: 400px;
+    color: white;
+    padding: 10px 10px;
+    overflow-y: auto;
+}
+
+#submit{
+    width: 25%;
+}
